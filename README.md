@@ -22,7 +22,7 @@
 ### :man_technologist: About Me :
 ### I am a Junior Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from London. Recently awarded the degree of Bachelor of Science Computing with First-Class honours.
 
-- :telescope: I’m working as a Junior Software Engineer contributing to frontend and backend development and system maintenance at <a href="https://www.taxicode.com">Taxicode.</a>
+- :telescope: Working as a Junior Software Engineer contributing to frontend and backend development and system maintenance at <a href="https://www.taxicode.com">Taxicode.</a>
 
 - :seedling: Exploring Docker for server management & currently learning Flutter with Dart for mobile development.
 
