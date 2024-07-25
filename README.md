@@ -20,7 +20,7 @@
 ---
 
 ### :man_technologist: About Me :
-### I am a Junior Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from London. Recently awarded a Bachelor of Science Computing degree with First-Class honours.
+### I am a Junior Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from London. Recently awarded a Bachelor of Science Computing degree from the University of Greenwich, achieving First-Class honours.
 
 - :telescope: Working as a Junior Software Engineer contributing to frontend and backend development and system maintenance at <a href="https://www.taxicode.com">Taxicode.</a>
 
