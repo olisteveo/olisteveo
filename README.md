@@ -18,11 +18,11 @@
 ### :man_technologist: About Me :
 ### I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from London. 1st Class Bachelor of Science Computing degree from the University of Greenwich.
 
-- :telescope: Software Engineer</a>
+- Software Engineer</a>
 
-- :seedling: Exploring Docker for server management & currently learning Flutter with Dart for mobile development.
+- Exploring Docker for server management & currently learning Flutter with Dart for mobile development.
 
-- :zap: In my free time, I solve problems, fix bugs, run migrations & use Github Co-Pilot for stuff.
+- In my free time, I solve problems, fix bugs, run migrations & use Github Co-Pilot for stuff.
 
 ---
 
