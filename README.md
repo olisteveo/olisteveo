@@ -31,7 +31,7 @@ A full product ecosystem for halal living, not a single app. Mobile client, web 
 Gamified canvas-based virtual office where teams spin up AI "desks", assign models, run multi-agent meetings, and track spend across providers. BYOK — users connect their own OpenAI, Anthropic, Google and Moonshot keys, encrypted at rest with AES-256-GCM. Full auth stack (JWT + Google OAuth), row-level security in Postgres, plan-based feature gating, and a proxied AI layer with per-call cost tracking.
 `React 19` · `TypeScript` · `Vite` · `Express` · `PostgreSQL` · `HTML5 Canvas`
 
-**🍺 [Beer Garden](https://beergarden.app)** — Find sunny pub gardens in London
+**🍺 [Pub Garden](https://pubgarden.app)** — Find sunny pub gardens and bars across the entire UK.
 Installable PWA with a 3D map and real-time sunlight tracking by time of day, plus user-submitted reviews. Built because nobody wants to pick the wrong pub on a rare sunny afternoon.
 `Next.js` · `React` · `Three.js` · `Mapbox` · `PWA`
 
