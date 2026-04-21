@@ -15,14 +15,40 @@
 
 ---
 
-### :man_technologist: About Me :
-### I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from London. 1st Class Bachelor of Science Computing degree from the University of Greenwich.
+### 👨‍💻 Oliver — Full Stack Engineer, London
 
-- Software Engineer</a>
+BSc Computing, University of Greenwich (First Class). Currently on Bromcom's internal AI team, building multi-layer AI products across UI, API and MCP. Previously built Bromcom's mobile automation framework from scratch with Appium, WebdriverIO and TypeScript.
 
-- Exploring Docker for server management & currently learning Flutter with Dart for mobile development.
+Outside of work I ship side projects end-to-end, design, build, deploy, iterate.
 
-- In my free time, I solve problems, fix bugs, run migrations & use Github Co-Pilot for stuff.
+### 🚀 Things I've shipped
+
+**🕌 [Ummaly](https://ummaly.net)** — Muslim lifestyle platform *(shipping soon)*
+A full product ecosystem for halal living, not a single app. Mobile client, web app + landing, admin dashboard, backend API and database — plus **HalalAI**, our own trained model powering the barcode-scan halal verification flow (currently production-ready). Covers halal product scanning, restaurant lookup, and prayer times.
+`Flutter` · `Next.js` · `Node.js` · `Prisma` · `PostgreSQL` · `Custom-trained ML model`
+
+**🤖 [AgentDesk](https://agentdesk.work)** — SaaS workspace for managing teams of AI agents
+Gamified canvas-based virtual office where teams spin up AI "desks", assign models, run multi-agent meetings, and track spend across providers. BYOK — users connect their own OpenAI, Anthropic, Google and Moonshot keys, encrypted at rest with AES-256-GCM. Full auth stack (JWT + Google OAuth), row-level security in Postgres, plan-based feature gating, and a proxied AI layer with per-call cost tracking.
+`React 19` · `TypeScript` · `Vite` · `Express` · `PostgreSQL` · `HTML5 Canvas`
+
+**🍺 [Beer Garden](https://beergarden.app)** — Find sunny pub gardens in London
+Installable PWA with a 3D map and real-time sunlight tracking by time of day, plus user-submitted reviews. Built because nobody wants to pick the wrong pub on a rare sunny afternoon.
+`Next.js` · `React` · `Three.js` · `Mapbox` · `PWA`
+
+### 🛠 Tech I work with
+
+**Languages:** TypeScript · Java · Dart · PHP · SQL
+
+**Frontend:** React · Next.js · Flutter · Vite
+
+**Backend:** Node.js · Express · Laravel · Prisma · REST/MCP APIs
+
+**Data:** PostgreSQL · Vector DBs · RAG pipelines
+
+**AI/ML:** MCP servers · multi-provider integration · custom model training · local LLMs on Apple Silicon
+
+**Infra:** Docker · Azure · VPS deployments · CI/CD
+
 
 ---
 
