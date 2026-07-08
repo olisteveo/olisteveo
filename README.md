@@ -23,7 +23,7 @@ Outside of work I ship side projects end-to-end, design, build, deploy, iterate.
 
 ### 🚀 Things I've shipped
 
-**🕌 [Ummaly](https://ummaly.net)** — Muslim lifestyle platform *(shipping soon)*
+**🕌 [Ummaly](https://ummaly.net)** — Muslim lifestyle platform *(shipped to App Store - Android/Play Store coming soon)*
 A full product ecosystem for halal living, not a single app. Mobile client, web app + landing, admin dashboard, backend API and database — plus **HalalAI**, our own trained model powering the barcode-scan halal verification flow (currently production-ready). Covers halal product scanning, restaurant lookup, and prayer times.
 `Flutter` · `Next.js` · `Node.js` · `Prisma` · `PostgreSQL` · `Custom-trained ML model`
 
