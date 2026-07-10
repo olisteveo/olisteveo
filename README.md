@@ -23,6 +23,10 @@ Outside of work I ship side projects end-to-end, design, build, deploy, iterate.
 
 ### 🚀 Things I've shipped
 
+**🚕 [Traverse](https://traversetaxi.com)** — Fixed-price airport taxi comparison, live across the UK
+Affiliate ride-hailing platform that compares quotes from trusted suppliers and hands the customer to secure checkout, never touching card details. Built on programmatic SEO — one template stamps out 90+ static landing pages targeting specific journey searches (Heathrow to Brighton, Gatwick airport taxi), each proximity-aware and one tap from a real fixed-price fare. Ships with a private analytics dashboard on Cloudflare Pages + D1 tracking the conversion funnel.
+`Expo` · `React Native` · `TypeScript` · `React Query` · `Cloudflare Pages` · `D1`
+
 **🕌 [Ummaly](https://ummaly.net)** — Muslim lifestyle platform *(shipped to App Store - Android/Play Store coming soon)*
 A full product ecosystem for halal living, not a single app. Mobile client, web app + landing, admin dashboard, backend API and database — plus **HalalAI**, our own trained model powering the barcode-scan halal verification flow (currently production-ready). Covers halal product scanning, restaurant lookup, and prayer times.
 `Flutter` · `Next.js` · `Node.js` · `Prisma` · `PostgreSQL` · `Custom-trained ML model`
