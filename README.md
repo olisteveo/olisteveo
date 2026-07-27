@@ -84,11 +84,13 @@ Installable PWA with a 3D map and real-time sunlight tracking by time of day, pl
 
 ---
 
-### :fire: My Stats :
-
 <p align="left">
   <img src="./profile/stats.svg" alt="GitHub stats for olisteveo" height="185">
   <img src="./profile/top-langs.svg" alt="Most used languages" height="185">
+</p>
+
+<p align="left">
+  <img src="./profile/streak.svg" alt="Contribution streak and total contributions" height="185">
 </p>
 
 <sub>Cards are rendered daily by GitHub Actions and include private repositories, so the language split reflects what I actually build rather than just what is public.</sub>

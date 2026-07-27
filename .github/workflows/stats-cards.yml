@@ -51,6 +51,26 @@ jobs:
           options: >-
             username=olisteveo&show_icons=true&count_private=true&include_all_commits=true&theme=vision-friendly-dark&bg_color=0D1117&hide_border=true&rank_icon=github
 
+      # The streak card comes from a different project with no Action, so fetch
+      # it and commit it like the others. streak-stats.demolab.com timed out on
+      # 2 of 8 cold requests when tested, hence the retries; if every attempt
+      # fails the previously committed card is simply left in place.
+      - name: Contribution streak
+        run: |
+          mkdir -p profile
+          URL='https://streak-stats.demolab.com/?user=olisteveo&theme=dark&background=0D1117&hide_border=true'
+          for i in 1 2 3 4 5; do
+            if curl -fsS --max-time 30 -o /tmp/streak.svg "$URL" \
+               && grep -q 'Total Contributions' /tmp/streak.svg; then
+              mv /tmp/streak.svg profile/streak.svg
+              echo "streak card updated on attempt $i"
+              exit 0
+            fi
+            echo "attempt $i failed"
+            sleep 10
+          done
+          echo "::warning::streak service unreachable, keeping the existing card"
+
       # The @v2 action writes a "Something went wrong" card instead of failing
       # when the token is rejected, so an expired PAT would quietly commit
       # broken cards over the good ones. Refuse to commit those.
