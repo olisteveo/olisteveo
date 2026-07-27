@@ -71,6 +71,28 @@ jobs:
           done
           echo "::warning::streak service unreachable, keeping the existing card"
 
+      # Line the streak ring up under the rank circle on the stats card above.
+      # stats.svg puts the rank circle at translate(390.5) + cx -10 = x 380.5;
+      # streak.svg centres its ring at x 247.5. Both render at the same scale
+      # (195 tall), so padding the streak viewBox left by the 133-unit
+      # difference makes the two circles share a vertical line. The padding is
+      # outside the card's clip path, so it stays transparent rather than
+      # showing as a block of background.
+      - name: Align streak ring with the rank circle
+        run: |
+          python3 - <<'EOF'
+          import pathlib, re
+          SHIFT = 133
+          p = pathlib.Path("profile/streak.svg")
+          s = p.read_text()
+          s2, n1 = re.subn(r"viewBox='0 0 495 195'", f"viewBox='-{SHIFT} 0 {495 + SHIFT} 195'", s, count=1)
+          s2, n2 = re.subn(r"width='495px'", f"width='{495 + SHIFT}px'", s2, count=1)
+          if n1 != 1 or n2 != 1:
+              raise SystemExit(f"streak.svg header changed upstream (viewBox={n1}, width={n2}); re-derive the offset")
+          p.write_text(s2)
+          print(f"padded streak.svg left by {SHIFT} units")
+          EOF
+
       # The @v2 action writes a "Something went wrong" card instead of failing
       # when the token is rejected, so an expired PAT would quietly commit
       # broken cards over the good ones. Refuse to commit those.
