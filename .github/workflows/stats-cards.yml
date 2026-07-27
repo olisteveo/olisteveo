@@ -5,6 +5,10 @@ name: Update profile stat cards
 # 503 under load, and the Heroku host the streak card used was retired in 2022.
 # Committed SVGs cannot go down, and STATS_PAT stays in this repo's secrets so
 # no third-party service is granted access to the private repos.
+#
+# Note: the @v2 tag does not accept fail_on_error, so a data-fetch failure
+# writes an error card rather than failing the run. Check the SVGs after any
+# action upgrade.
 
 on:
   schedule:
@@ -35,7 +39,6 @@ jobs:
           card: top-langs
           path: profile/top-langs.svg
           token: ${{ secrets.STATS_PAT }}
-          fail_on_error: true
           options: >-
             username=olisteveo&layout=compact&langs_count=8&theme=vision-friendly-dark&bg_color=0D1117&hide_border=true&hide=blade,html,css,scss,dockerfile,shell
 
@@ -45,7 +48,6 @@ jobs:
           card: stats
           path: profile/stats.svg
           token: ${{ secrets.STATS_PAT }}
-          fail_on_error: true
           options: >-
             username=olisteveo&show_icons=true&count_private=true&include_all_commits=true&theme=vision-friendly-dark&bg_color=0D1117&hide_border=true&rank_icon=github
 

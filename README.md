@@ -86,6 +86,9 @@ Installable PWA with a 3D map and real-time sunlight tracking by time of day, pl
 
 ### :fire: My Stats :
 
-[![GitHub Streak](http://github-readme-streak-stats.herokuapp.com?user=olisteveo&theme=dark&background=000000)](https://git.io/streak-stats)
-<br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=olisteveo&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+<p align="left">
+  <img src="./profile/stats.svg" alt="GitHub stats for olisteveo" height="185">
+  <img src="./profile/top-langs.svg" alt="Most used languages" height="185">
+</p>
+
+<sub>Cards are rendered daily by GitHub Actions and include private repositories, so the language split reflects what I actually build rather than just what is public.</sub>
