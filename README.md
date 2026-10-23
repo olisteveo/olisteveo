@@ -15,9 +15,11 @@
 
 ---
 
-### 👨‍💻 Oliver — Full Stack Engineer, London
+### 👨‍💻 Oliver — Senior Software Engineer, London & Dubai
 
-BSc Computing, University of Greenwich (First Class). Currently on Bromcom's internal AI team, building multi-layer AI products across UI, API and MCP. Previously built Bromcom's mobile automation framework from scratch with Appium, WebdriverIO and TypeScript.
+BSc Computing, University of Greenwich (First Class). Senior Software Engineer at Web3resource, the company behind Taxicode and Taxi Price Compare. I own the Bolt ride-hailing integration end to end, from live pricing and on-demand booking to card authorisation and live driver tracking, and took it international with the launch in Dubai. I also own the React Native apps through to App Store and Google Play releases, and work across the PHP 8 and Stripe backend.
+
+Previously at Bromcom, where I built the mobile automation framework from scratch with Appium, WebdriverIO and TypeScript, then moved to the internal AI team building AI products across UI, API and MCP.
 
 Outside of work I ship side projects end-to-end, design, build, deploy, iterate.
 
@@ -41,17 +43,19 @@ Installable PWA with a 3D map and real-time sunlight tracking by time of day, pl
 
 ### 🛠 Tech I work with
 
-**Languages:** TypeScript · Java · Dart · PHP · SQL
+**Languages:** TypeScript · PHP · C# · Dart · Java · SQL
 
-**Frontend:** React · Next.js · Flutter · Vite
+**Frontend:** React · React Native · Expo · Next.js · Flutter · Vite
 
-**Backend:** Node.js · Express · Laravel · Prisma · REST/MCP APIs
+**Backend:** Node.js · Express · PHP 8 · Laravel · Prisma · REST/MCP APIs
+
+**Payments & integrations:** Stripe · Apple Pay / Google Pay · Bolt Ride Booker API · Google Maps Platform
 
 **Data:** PostgreSQL · Vector DBs · RAG pipelines
 
 **AI/ML:** MCP servers · multi-provider integration · custom model training · local LLMs on Apple Silicon
 
-**Infra:** Docker · Azure · VPS deployments · CI/CD
+**Infra:** Docker · Azure · Cloudflare Pages · VPS deployments · CI/CD
 
 
 ---
