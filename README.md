@@ -41,6 +41,14 @@ Gamified canvas-based virtual office where teams spin up AI "desks", assign mode
 Installable PWA with a 3D map and real-time sunlight tracking by time of day, plus user-submitted reviews. Built because nobody wants to pick the wrong pub on a rare sunny afternoon.
 `Next.js` · `React` · `Three.js` · `Mapbox` · `PWA`
 
+**🍂 [Far From the Tree](https://farfromthetree.world)** — A browser game about one leaf's journey across Manhattan
+Battery Park, late November, and every other leaf in the city has already fallen. Ride the wind uptown through a stylised New York built from NYC Open Data and plant your seed in Central Park. Dive, flare, bank, corkscrew and spread to catch updrafts between the buildings, then race the clock for the global leaderboard and unlock achievements along the way. Runs in the browser with no install.
+`Three.js` · `WebGL2` · `Custom shaders` · `Vite` · `Cloudflare`
+
+### Game development
+
+Games are where I get to combine everything I enjoy about building software: physics, rendering, tight controls and making something feel good in the hand. I'm drawn to small, atmospheric games built around a single mechanic, and Far From the Tree started as a question about what it would feel like to be carried by the wind through a real city. I build my own movement and wind systems, write shaders for the look, and turn real map data into playable worlds.
+
 ### 🛠 Tech I work with
 
 **Languages:** TypeScript · PHP · C# · Dart · Java · SQL
